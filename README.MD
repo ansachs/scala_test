@@ -13,8 +13,8 @@ example: `sbt:getting-dressed> run COLD 1, 2, 3`
 Tried to achieve the following in this program:
 
 1. utilize a single source of truth for the applied actions. \
-Thus a match condition that applies that action and then rules which \
-test the person state after application
+Thus a match condition that applies that action and rules which \
+test the person's state after application of the action
 
 2. apply rules to actions in a functional manner, thus wrapping results in a try block
 3. separate program flow from rules -> rules have no concept of actions, only testing state
