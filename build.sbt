@@ -19,3 +19,5 @@ libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.0.8" % "test",
   "org.mockito" % "mockito-core" % "2.28.2" % "test"
 )
+
+mainClass in (Compile, packageBin) := Some("gdapp.Main")
