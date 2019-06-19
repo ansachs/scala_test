@@ -17,8 +17,8 @@ Thus a match condition that applies that action and rules which \
 test the person's state after application of the action
 
 2. apply rules to actions in a functional manner, thus wrapping results in a try block
-3. separate program flow from rules -> rules have no concept of actions, only testing state
-4. separate Person class from rules -> ie person has no concept of rules
+3. separate program flow from rules -> rules have no concept of actions => only test validity of a state
+4. separate Person class from rules -> ie person has no concept of rules => thus use of Option[Int] in defining clothing items
 
 ##future releases
 - requires more testing -> only implemented a few basic tests to check on libraries
